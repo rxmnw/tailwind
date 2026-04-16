@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind</title>
+    <link rel="stylesheet" href="./src/output.css" />
+  </head>
+  <body>
+    <header class="flex max-w-300 items-center m-auto justify-between p-5">
+      <img src="Logo Color.svg" alt="" />
+      <div class="flex items-center gap-[50px]">
+        <p class="text-[#19191B] font-bold">Home</p>
+        <p class="text-[#696871] font-bold">Features</p>
+        <p class="text-[#696871] font-bold">Pricing</p>
+        <p class="text-[#696871] font-bold">Blog</p>
+      </div>
+      <button
+        class="bg-[#FF7143] p-[10px_50px] text-white text-[17px] rounded-[10px]" >
+        <a href="#">Get Started</a>
+      </button>
+    </header>
+    <!-- <main>
+      <section
+        class="flex max-w-300 m-auto justify-between items-center gap-[120px] py-[50px]">
+        <aside class="flex flex-col gap-[40px]">
+          <h1 class="text-[#19191B] text-[80px] font-bold">
+            Grow your subscription business
+          </h1>
+          <p class="text-[#696871] text-[20px]">
+            Outcome-centered products that reduce churn, optimize pricing, and
+            grow your subscription business end-to-end.
+          </p>
+          <div class="flex gap-[50px]">
+            <button
+              class="bg-[#5454D4] p-[10px_50px] text-white text-[17px] rounded-[10px]" >
+              <a href="#">Get Started</a>
+            </button>
+            <img src="./photo_2026-04-16_15-28-14.jpg" alt="" />
+          </div>
+        </aside>
+        <img src="./photo_2026-04-16_15-26-34.jpg" alt="" />
+      </section>
+      <section
+        class="flex max-w-300 m-auto justify-between items-center py-[50px]">
+        <img src="Group.svg" alt="" />
+        <img src="Group1.svg" alt="" />
+        <img src="Group2.svg" alt="" />
+        <img src="Group3.svg" alt="" />
+        <img src="Group4.svg" alt="" />
+      </section>
+      <section
+        class="flex max-w-300 m-auto justify-between items-center py-[50px] gap-[380px]" >
+        <img src="./photo_2026-04-16_15-30-44.jpg" alt="" />
+        <aside class="flex flex-col items-start gap-[25px]">
+          <h1 class="text-[50px] font-bold">Subscription index</h1>
+          <p class="text-[#696871] text-[20px] font-normal">
+            A daily dataset to keep you up to date on subscription market trends
+            and what's happening in your vertical.
+          </p>
+          <button class="text-[#5454D4] font-bold text-[17px]">
+            <a href="#">Learn more</a>
+          </button>
+        </aside>
+      </section>
+      <section
+        class="flex max-w-300 m-auto justify-between items-center py-[50px] gap-[380px]">
+        <aside class="flex flex-col items-start gap-[25px]">
+          <h1 class="text-[50px] font-bold">In-depth metrics</h1>
+          <p class="text-[#696871] text-[20px] font-normal">
+            Accurate, real-time reporting at your fingertips. Getting data has
+            never been easier.
+          </p>
+          <button class="text-[#5454D4] font-bold text-[17px]">
+            <a href="#">Learn more</a>
+          </button>
+        </aside>
+        <img src="./photo_2026-04-16_15-33-07.jpg" alt="" />
+      </section>
+      <section  class="flex max-w-300 m-auto justify-between items-center py-[50px] gap-[150px]">
+        <div class="flex flex-col items-center text-center gap-[15px]">
+          <img src="./photo_2026-04-16_15-33-55.jpg" alt="" />
+          <h2 class="text-[#19191B] text-[24px] font-bold">Benchmarks</h2>
+          <p class="text-[#696871] text-[16px] ">
+            See how you stack up against comparable companies in similar stages.
+          </p>
+        </div>
+        <div class="flex flex-col items-center text-center gap-[15px]">
+          <img src="./photo_2026-04-16_15-34-32.jpg" alt="" />
+          <h2 class="text-[#19191B] text-[24px] font-bold">Pricing Audit</h2>
+          <p class="text-[#696871] text-[16px] ">Benchmark the health of your monetization and pricing strategy.</p>
+        </div>
+        <div class="flex flex-col items-center text-center gap-[15px]">
+          <img src="./photo_2026-04-16_15-35-26.jpg" alt="" />
+          <h2 class="text-[#19191B] text-[24px] font-bold">Retention Audit</h2>
+          <p class="text-[#696871] text-[16px] ">
+            Audit where revenue leakage exists and where you can increase
+            retention.
+          </p>
+        </div>
+      </section>
+      <section class="flex flex-col max-w-300 m-auto">
+        <div class="flex items-center  justify-between">
+            <h1 class="text-[#19191B] text-[60px] font-bold">Get the right plan <br>future product.</h1>
+            <nav class="flex items-center  bg-[#F7F7FB] p-[5px] rounded-[10px] px-[10px] ">
+                <button class="bg-[#5454D4] text-white p-[10px_50px] rounded-[10px_0px_0px_10px]   text-[16px] font-bold hover:bg-transparent hover:text-black ">Yearly</button>
+                <button class="bg-transparent text-black p-[10px_35px] rounded-[0px_10px_10px_0px] text-[16px] font-bold hover:bg-[#5454D4] hover:text-white">Monthly</button>
+            </nav>
+        </div>
+        <div class="flex max-w-300 m-auto py-[50px] justify-between items-center gap-[10px]">
+          <nav class="flex flex-col items-center text-center gap-[20px] bg-[#F8F8F8] p-[50px] rounded-[10px]">
+            <p class="text-[#696871] text-[18px] font-normal">Starter</p>
+            <h1 class="text-[#1D293F] text-[60px] font-bold">Free</h1>
+            <p class="text-[#696871] text-[18px] font-normal">1 Website</p>
+            <p class="text-[#696871] text-[18px] font-normal">5 GB Hosting</p>
+            <p class="text-[#696871] text-[18px] font-normal">Limited Support</p>
+            <button class="text-[#5454D4] bg-white p-[10px_75px] font-bold text-[17px] rounded-[10px]"><a href="#">Get Started</a></button>
+          </nav>
+          <nav class="flex flex-col items-center text-center gap-[20px] bg-[#FF7143] p-[75px_50px] text-white rounded-[10px]">
+            <p class="text-[18px] font-normal">Premium</p>
+            <h1 class="text-[60px] font-bold">$29<span class="text-[28px] ">/month</span> </h1>
+            <p class="text-[18px] font-normal">10 Website</p>
+            <p class="text-[18px] font-normal">15 GB Hosting</p>
+            <p class="text-[18px] font-normal">Premium Support</p>
+            <button class="p-[10px_80px] font-bold text-[17px] rounded-[10px] bg-[#9F3919]"><a href="#">Get Started</a></button>
+          </nav>
+          <nav class="flex flex-col items-center text-center gap-[20px] bg-[#F8F8F8] p-[50px] rounded-[10px]">
+            <p class="text-[#696871] text-[18px] font-normal">Enterprise</p>
+            <h1 class="text-[#1D293F] text-[60px] font-bold">$49<span class="text-[28px] ">/month</span> </h1>
+            <p class="text-[#696871] text-[18px] font-normal">Unlimited Website</p>
+            <p class="text-[#696871] text-[18px] font-normal">50 GB Hosting</p>
+            <p class="text-[#696871] text-[18px] font-normal">Premium Support</p>
+            <button class="text-[#5454D4] bg-white p-[10px_75px] font-bold text-[17px] rounded-[10px]"><a href="#">Get Started</a></button>
+          </nav>
+        </div>
+      </section> -->
+    </main>
+    
+  </body>
+</html>
